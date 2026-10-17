@@ -18,4 +18,4 @@ Dependency fixes for nvidia CUDA. Found while looking at the SwarmUI logs. Some 
 ## To-Do
 
 - SWUI_PATH initialization need to be changed to an automatic detection of SwarmUI or ComfyUI installation folder.
-- Add support for RPM/YUM/APT/Conda
+- Add support for RPM/YUM/APT/Conda/Powershell
