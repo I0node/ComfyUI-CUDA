@@ -38,6 +38,8 @@ kiui
 python_color_transfer
 Pilgram
 pymeshlab
+pytorch_msssim
+torchtyping
 
 #non essential dependencies:
 kornia>=0.7.1
