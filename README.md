@@ -19,3 +19,5 @@ Dependency fixes for nvidia CUDA. Found while looking at the SwarmUI logs. Some 
 
 - SWUI_PATH initialization need to be changed to an automatic detection of SwarmUI or ComfyUI installation folder.
 - Add support for RPM/YUM/APT/Conda/Powershell
+- Fix: ModuleNotFoundError: No module named 'diff_gaussian_rasterization' (SwarmUI/dlbackend/ComfyUI/custom_nodes/ComfyUI-3D-Pack/MVs_Algorithms/GaussianSplatting/main_3DGS_renderer.py", line 24)
+  - unable to build the module from https://github.com/graphdeco-inria/diff-gaussian-rasterization, subprocess.CalledProcessError: Command '['ninja', '-v']' returned non-zero exit status 2.
