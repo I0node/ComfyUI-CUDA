@@ -4,7 +4,7 @@
 set -e
 
 # Base environment paths
-SWUI_PATH="/run/media/game/521E56151E55F309/AI/SwarmUI"
+SWUI_PATH="$HOME/SwarmUI"
 
 # Target original file locations
 KIUI_OP_FILE="$SWUI_PATH/dlbackend/ComfyUI/venv/lib/python3.11/site-packages/kiui/op.py"
